@@ -1,0 +1,90 @@
+.navbar {
+    box-shadow: -1px 1px 14px 0px #00bFF0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1030;
+}
+.navbar-name {
+    color: #F23580;
+}
+.bg-dark {
+    background-color: #000!important;
+}
+.menu-icon-img img {
+    width: 50px;
+}
+.menu-icon-img img {
+    transition: transform 0.3s; /* Add a smooth transition effect */
+}
+
+.menu-icon-img:hover img {
+    transform: scale(1.1); /* Increase the size on hover */
+}
+
+body {
+    background-color: black;
+}
+.jumbotron-content img {
+    width: 100%;
+}
+.jumbotron.jumbotron-fluid {
+    background-color: black;
+}
+
+.collapse.navbar-collapse.ml-auto {
+    justify-content: right;
+}
+/* Style for the active link */
+.navbar-dark .navbar-nav .nav-item.active .nav-link {
+    color: #F23580; /* Change this to the desired color */
+}
+.footer {
+           
+    padding: 1rem;
+    box-shadow: -1px 1px 14px 0px #00BFF0;
+    width: 100%;
+    background-color: #000;
+}
+
+/* Add this CSS to your existing stylesheet */
+
+#footer-image {
+    width: 170px;
+   
+}
+
+.footer-text {
+    font-size: 12px;
+    color: #495057;
+}
+/* Style for the footer links */
+.footer-links {
+    list-style-type: none;
+    padding: 0;
+}
+dl, ol, ul {
+    /* margin-top: 0; */
+    /* margin-bottom: 21rem; */
+}
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #f23580;
+    transition: text-decoration 0.3s; /* Add a smooth transition effect */
+}
+
+.footer-links a:hover {
+    text-decoration: underline; /* Underline the link on hover */
+    color: #00BFF0; /* Change the link color on hover */
+}
+.container-fluid footer img {
+    margin-left: 37%;
+    justify-content: center;
+    width: 25%;
+    margin-top: -63px;
+}
