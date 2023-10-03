@@ -1,3 +1,6 @@
+body {
+    background-color: black;
+}
 .navbar {
     box-shadow: -1px 1px 14px 0px #00bFF0;
     position: fixed;
@@ -22,17 +25,108 @@
 .menu-icon-img:hover img {
     transform: scale(1.1); /* Increase the size on hover */
 }
+.jumbotron-content {
+    position: relative; /* Position the container as a reference for absolute positioning */
+}
 
-body {
-    background-color: black;
+img {
+    max-width: 100%; /* Ensure the image doesn't exceed its container width */
+    height: auto; /* Maintain the image's aspect ratio */
+}
+.jumbotron {
+    background-color: #000;
+}
+
+.jumbotron-overlay {
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    padding: 20px;
+}
+
+.jumbotron-title {
+    font-size: 2rem; /* Customize title font size */
+    ;
+}
+
+.jumbotron-text {
+    color: #00BFF0;
+    font-size: 18px; /* Customize text font size */
 }
 .jumbotron-content img {
+    margin-top: -28%;
     width: 100%;
+    box-shadow: -1px 11px 99px 0px #00bFF0;
 }
-.jumbotron.jumbotron-fluid {
-    background-color: black;
+.jumbotron-content {
+    margin-top: 20px;
+    position: relative;
+}
+.container, .container-md, .container-sm {
+    padding-bottom: 70%;
+    max-width: 100%;
+}
+/* Your existing jumbotron styles remain the same */
+.row {
+   
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.row-1 {
+    position: relative;
+    margin-top: -364px;
+    text-align: center;
+    z-index: 2;
 }
 
+/* Additional styles for the image within row-1 */
+.row-1 img {
+    max-width: 100%; /* Ensure the image doesn't exceed its container width */
+    height: auto; /* Maintain the image's aspect ratio */
+}
+
+.project-title {
+    font-size: 2rem;
+     text-align: center;
+     color: #F23580;
+     padding-bottom: 6%;
+     margin-top: -2%;
+    
+}
+.project-title-rc {
+    font-size: 1.4rem;
+    margin-left: 14%;
+    color: #F23580;
+    margin-top: -154%;
+}
+.project-title-tdf {
+    font-size: 1.4rem;
+    margin-left: 14%;
+    color: #F23580;
+    margin-top: -154%;
+
+}
+.project-title-smart-reciepes{
+    font-size: 1.4rem;
+    margin-left: 14%;
+    color: #F23580;
+    margin-top: -154%;
+
+}
+.project-title-give-gaurdian {
+    font-size: 1.4rem;
+    margin-left: 14%;
+    color: #F23580;
+    margin-top: -154%;
+}
 .collapse.navbar-collapse.ml-auto {
     justify-content: right;
 }
@@ -46,6 +140,7 @@ body {
     box-shadow: -1px 1px 14px 0px #00BFF0;
     width: 100%;
     background-color: #000;
+    flex-shrink: 0;
 }
 
 /* Add this CSS to your existing stylesheet */
