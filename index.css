@@ -79,10 +79,11 @@ img {
     flex-wrap: wrap;
     margin-right: -15px;
     margin-left: -15px;
+    padding-bottom: 10%;
 }
 .row-1 {
     position: relative;
-    margin-top: -364px;
+    margin-top: -484px;
     text-align: center;
     z-index: 2;
 }
@@ -92,6 +93,12 @@ img {
     max-width: 100%; /* Ensure the image doesn't exceed its container width */
     height: auto; /* Maintain the image's aspect ratio */
 }
+.row-2 img{
+          width: 100%;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
 .project-title {
     font-size: 2rem;
@@ -101,38 +108,131 @@ img {
      margin-top: -2%;
     
 }
+
 .project-title-rc {
-    font-size: 1.4rem;
-    margin-left: 14%;
+    padding-bottom: 60px;
+    font-size: 1.6rem;
+    margin-left: 6%;
     color: #F23580;
-    margin-top: -154%;
+    margin-top: -1428px;
 }
-.project-title-tdf {
-    font-size: 1.4rem;
-    margin-left: 14%;
-    color: #F23580;
-    margin-top: -154%;
+.project-text {
+    color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.carousel-inner {
+    padding-top: 5%;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    width: 75%;
+    overflow: hidden;
+}
+.button-click {
+
+        margin-right: 5%;
+        margin-left: auto;
+        width: 24%;
+        padding: 1rem;
+    }
+
+    .project-title-tdf {
+        font-size: 1.6rem;
+        margin-left: 5%;
+        color: #F23580;
+        margin-top: -1422px;
+    }
+.row-3 {
+    padding-top: 359px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    color: white;
+}
+.project-text-tdf {
+    margin-top: 86px;
+    color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.row-3 img{
+ 
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
 
 }
-.project-title-smart-reciepes{
-    font-size: 1.4rem;
-    margin-left: 14%;
+
+
+.project-title-smart-reciepes {
+    font-size: 1.6rem;
+    margin-left: 6%;
     color: #F23580;
-    margin-top: -154%;
+    margin-top: -1425px;
+}
+.project-text-smart-reciepes {
+    padding-top: 66px;
+    margin-right: 5%;
+    color: white;
+    margin-left: 5%;
+}
+.row-4 {
+  
+        padding-top: 271px;
+    }
+
+.row-4 img{
+ 
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
 
 }
-.project-title-give-gaurdian {
-    font-size: 1.4rem;
-    margin-left: 14%;
-    color: #F23580;
-    margin-top: -154%;
-}
+.row-5 {
+ 
+        padding-top: 484px;
+    }
+
+.row-5 img{
+   
+ 
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+    
+    }
+
+
+
+    .project-title-give-gaurdian {
+        font-size: 1.6rem;
+        margin-left: 6%;
+        color: #F23580;
+        margin-top: -1366px;
+    }
+    .project-text-give-gaurdian{
+        
+            padding-top: 49px;
+            color: white;
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+
+   
 .collapse.navbar-collapse.ml-auto {
     justify-content: right;
 }
 /* Style for the active link */
 .navbar-dark .navbar-nav .nav-item.active .nav-link {
     color: #F23580; /* Change this to the desired color */
+}
+.container-fluid-1  {
+    width: 100%;
+    /* padding-right: 15px; */
+    /* padding-left: 15px; */
+    margin-right: auto;
+    margin-left: auto;
 }
 .footer {
            
@@ -182,4 +282,25 @@ dl, ol, ul {
     justify-content: center;
     width: 25%;
     margin-top: -63px;
+}
+@media (min-width: 1024px) {
+.project-title-rc {
+    padding-bottom: 88px;
+    font-size: 1.6rem;
+    margin-left: 6%;
+    color: #F23580;
+    margin-top: -1499px;}
+.project-text {
+    color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.row-3 {
+    padding-top: 349px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    color: white;
+}
+
 }
