@@ -66,13 +66,10 @@ img {
     margin-top: 54px;
     position: relative;
 }
-.container, .container-md, .container-sm {
-    padding-bottom: 70%;
-    max-width: 100%;
-}
+
 /* Your existing jumbotron styles remain the same */
 .row {
-    margin-top: -124px;
+   padding-bottom: 80px;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
@@ -80,18 +77,12 @@ img {
     margin-right: auto;
     margin-left: auto;
 }
-.glass-border {
-    margin-left: auto;
-    margin-right: auto;
-    width: 95%;
-    /* Your other styling for the glass border image */
-}
 
 /* Style for the content inside the glass border */
-.-wrapper {
-    text-align: center; /* Center the content horizontally */
-    margin-top: 20px; /* Add margin to separate content from the border */
-    /* Add any other styling you need for the content */
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
 }
 .row-1 {
     position: relative;
@@ -104,143 +95,40 @@ img {
     max-width: 100%; /* Ensure the image doesn't exceed its container width */
     height: auto; /* Maintain the image's aspect ratio */
 }
-.row.row-2 {
-    padding-bottom: 53%;
-    padding-top: 20%;
-    /* margin-top: 20px; */
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    margin-right: auto;
-    margin-left: auto;
+
+
+.project-title {
+    font-weight: 500;
+    margin-top: -122px;
+    font-size: 2rem;
+    text-align: center;
+    color: #F23580;
+    padding-bottom: 5%;
+    /* padding-bottom: 21%; */
 }
-.row-2 img{
-          width: 100%;
-        justify-content: center;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .project-title {
-        font-weight: 500;
-        margin-top: -194px;
-        font-size: 2rem;
-        text-align: center;
-        color: #F23580;
-        /* padding-bottom: 21%; */
-    }
-
-    .project-title-rc {
-        text-align: left;
-        font-weight: 300;
-        padding-bottom: 60px;
-        font-size: 2rem;
-        margin-left: 6%;
-        color: #F23580;
-        margin-top: -1458px;
-    }
-    .project-text {
-        font-size: 1.1rem;
-        text-align: left;
-        padding-right: 86px;
-        padding-left: 86px;
-        color: white;
-        /* margin-left: 5%; */
-        /* margin-right: 5%; */
-    }
-    .carousel-inner {
-        padding-top: 9%;
-        margin-right: auto;
-        margin-left: auto;
+.project-text {
+    position: absolute;
+    top: 100px; /* Adjust top, left, or other values as needed */
+    left: 20px;
+    /* Other styles for the text */
+}
+.border-image-container {
         position: relative;
-        width: 86%;
-        overflow: hidden;
-    }
-    .button-click {
-        margin-top: 5%;
-        margin-right: 5%;
-        margin-left: auto;
-        width: 24%;
-        padding: 1rem;
-    }
-    .project-title-tdf {
-        font-size: 1.6rem;
-        margin-left: 5%;
-        color: #F23580;
-        margin-top: -1422px;
-    }
-    .row.row-3 {
-        margin-top: 40px;
-        width: 100%;
-        margin-right: auto;
-        margin-left: auto;
-        color: white;
-    }
-    .row.row-4 {
-        padding-top: 66%;
-        padding-bottom: 70%;
-        /* margin-top: 10%; */
-        /* margin-top: 70px; */
-        display: -ms-flexbox;
-        /* display: flex; */
-        -ms-flex-wrap: wrap;
-        /* flex-wrap: wrap; */
-        margin-right: auto;
-        margin-left: auto;
-    }
-    .row.row-5 {
-        padding-top: 89%;
-        /* margin-top: 345px; */
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-        margin-right: auto;
-        margin-left: auto;
     }
     
-    .project-text-tdf {
-        font-size: 1.1rem;
-        padding-right: 86px;
-        padding-left: 86px;
-        margin-top: 34px;
-        color: white;
-        /* margin-left: 5%; */
-        /* margin-right: 5%; */
+    
+  
+ 
+    .button-click {
+     
+   
+        width: 48%;
+        padding: 1rem;
     }
+  
 
 
-    .project-title-smart-reciepes {
-        margin-top: -1455px;
-        text-align: left;
-        font-size: 1.8rem;
-        font-weight: 300;
-        margin-left: 6%;
-        color: #F23580;
-    }
-.project-text-smart-reciepes{
-        padding-right: 86px;
-        padding-left: 86px;
-        font-size: 1.1rem;
-        color: white;
-    }
-
-    .project-title-give-gaurdian {
-        text-align: left;
-        font-weight: 300;
-        font-size: 1.6rem;
-        margin-left: 6%;
-        color: #F23580;
-        margin-top: -1449px;
-    }
-    .project-text-give-gaurdian{
-        
-            padding-top: 49px;
-            color: white;
-            margin-left: 5%;
-            margin-right: 5%;
-        }
+  
         .gem-section {
            position: relative;
         }
@@ -344,11 +232,7 @@ html, body {
     padding: 0;
 }
 
-.wrapper {
-    display: flex;
-    flex-direction: column;
-    min-height: 100%;
-}
+
 
 /* Adjust the margin-top to create space between content and footer if needed */
 .wrapper .footer {
@@ -407,29 +291,3 @@ dl, ol, ul {
 
 
 
-@media (min-width: 1024px) {
-.project-title-rc {
-    padding-bottom: 88px;
-    font-size: 1.6rem;
-    margin-left: 6%;
-    color: #F23580;
-    margin-top: -1499px;}
-.project-text {
-    color: white;
-    margin-left: 5%;
-    margin-right: 5%;
-}
-.row-3 {
-    padding-top: 349px;
-    width: 100%;
-    margin-right: auto;
-    margin-left: auto;
-    color: white;
-}
-.glass-border img{
-    margin-left: auto;
-    margin-right: auto;
-    width: 95%;
-}
-
-}
