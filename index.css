@@ -95,7 +95,7 @@ img {
 }
 .row-1 {
     position: relative;
-    margin-top: -251px;
+    margin-top: -341px;
     text-align: center;
     z-index: 2;
 }
@@ -193,16 +193,6 @@ img {
             margin-right: auto;
             margin-left: auto;
         }
-    .row.row-6 {
-            margin-top: -1630px;
-            display: -ms-flexbox;
-            display: flex;
-            -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
-            margin-right: auto;
-            margin-left: auto;
-        
-    }
     
     
     .project-text-tdf {
@@ -250,32 +240,74 @@ img {
             margin-top: -660px;
         }
        
-    
-        .about-section-title {
-            font-weight: 500;
-            font-size: 2rem;
-            color: #F23580;
-            text-align: center;
-            margin-top: -163px;
-        }
-    .col-md-6.about img{
-        border-radius: 16px;
-    }
-    
+/* Style for the About Me columns */
+
+.row.about-me {
   
-/* Target the first .col-md-6 within .row in .about-section */
-.about-section .row > .col-md-6:first-child img{border-radius: 16px;
-    /* Your custom styles here for the left side */
+        margin-top: -1645px;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: auto;
+        margin-left: auto;
+   
+
+}
+    
+
+/* You can add more styles to further customize the appearance */
+.about-me-col img {
+    max-width: 100%;
+    border-radius: 10px;
 }
 
-
-.about-section .row > .col-md-6:last-child {
-    padding-top: 19%;
+/* Target the left side of the row */
+.row > .col-md-6:first-child.about-me-col {
+    /* Add your styles for the left side here */
+   
+    color: white;
+    /* Add any other specific styles for the left side */
+}
+/* Target the right side of the row */
+.row > .col-md-6:last-child.about-me-col {
+    /* Add your styles for the right side here */
     background-color: white;
     color: black;
     border-radius: 16px;
+    /* Add any other specific styles for the right side */
 }
-   
+
+
+.about-me-col .about-section-title {
+    font-weight: 500;
+    font-size: 1.8rem;
+    margin-top: 20px;
+    color: #F23580;
+    text-align: center;
+}
+
+.about-me-col .about-section-text {
+    font-size: 1rem;
+    margin-top: 10px;
+}
+.row.resume-section{
+          margin-top: 128px;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: auto;
+        margin-left: auto;
+    }
+.resume-section-title{
+    color: #F23580;
+  
+        font-weight: 300;
+        font-size: 1.8rem;
+        margin-top: -1373px;
+    }
+
 .collapse.navbar-collapse.ml-auto {
     justify-content: right;
 }
@@ -377,6 +409,11 @@ dl, ol, ul {
     margin-right: auto;
     margin-left: auto;
     color: white;
+}
+.glass-border img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
 }
 
 }
