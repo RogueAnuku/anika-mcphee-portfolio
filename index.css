@@ -105,7 +105,9 @@ img {
     height: auto; /* Maintain the image's aspect ratio */
 }
 .row.row-2 {
-    margin-top: 20px;
+    padding-bottom: 53%;
+    padding-top: 20%;
+    /* margin-top: 20px; */
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
@@ -176,7 +178,20 @@ img {
         color: white;
     }
     .row.row-4 {
-        margin-top: 70px;
+        padding-top: 66%;
+        padding-bottom: 70%;
+        /* margin-top: 10%; */
+        /* margin-top: 70px; */
+        display: -ms-flexbox;
+        /* display: flex; */
+        -ms-flex-wrap: wrap;
+        /* flex-wrap: wrap; */
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .row.row-5 {
+        padding-top: 89%;
+        /* margin-top: 345px; */
         display: -ms-flexbox;
         display: flex;
         -ms-flex-wrap: wrap;
@@ -184,16 +199,6 @@ img {
         margin-right: auto;
         margin-left: auto;
     }
-    .row.row-5 {
-              margin-top: 345px;
-            display: -ms-flexbox;
-            display: flex;
-            -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
-            margin-right: auto;
-            margin-left: auto;
-        }
-    
     
     .project-text-tdf {
         font-size: 1.1rem;
@@ -237,26 +242,45 @@ img {
             margin-right: 5%;
         }
         .gem-section {
-            margin-top: -660px;
+           position: relative;
         }
+        
+        /* Style for the "About Me" and "Resume" sections */
        
 /* Style for the About Me columns */
 
 .row.about-me {
-  
-        margin-top: -1645px;
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-        margin-right: auto;
-        margin-left: auto;
-   
-
+    padding-top: 14%;
+    /* margin-top: -1645px; */
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: auto;
+    margin-left: auto;
 }
-    
+.row.resume-section {
+    margin-top: -776px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: auto;
+    margin-left: auto;
+}
+.about-me {
+     /* Adjust this value to control the overlap */
+}
 
-/* You can add more styles to further customize the appearance */
+.resume-section {
+    margin-top: -100px; /* Adjust this value to control the overlap */
+}
+.gem-section {
+    position: relative;
+    z-index: -1;
+}
+
+
 .about-me-col img {
     max-width: 100%;
     border-radius: 10px;
@@ -291,21 +315,13 @@ img {
     font-size: 1rem;
     margin-top: 10px;
 }
-.row.resume-section{
-          margin-top: 128px;
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-        margin-right: auto;
-        margin-left: auto;
-    }
+
 .resume-section-title{
     color: #F23580;
   
         font-weight: 300;
         font-size: 1.8rem;
-        margin-top: -1373px;
+       
     }
 
 .collapse.navbar-collapse.ml-auto {
