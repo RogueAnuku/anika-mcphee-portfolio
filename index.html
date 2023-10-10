@@ -144,42 +144,49 @@
         <img src="./Image/gem.svg">
     </div>
     <div class="row resume-section">
-        <div class="content-wrapper">
-            <div class="glass-border">
-                <img src="./Image/glassborder.png">
-                    
-                        <div class="resume-section-title">Resume</div>
-                        
-                                 
-                   
-                </div>
+        <div class="glass-border d-flex">
+            <div class="border-image-container">
+                <div class="resume-title">Resume</div>
+                <img src="./Image/glassborder2.png">
+    
+                <!-- Move the iframe here to place it under the border image -->
+                <iframe src="https://drive.google.com/file/d/1eFZj4MTH9-XUewLg7Gju2Dpt9TvnJKo6/preview" width="100%" height="500px"></iframe>
             </div>
         </div>
-    </div>         
-    <div class="input-group mb-3">
-         <input type="text" class="form-control" placeholder="first name" aria-label="first-name" aria-describedby="basic-addon1"> <input type="text" class="form-control" placeholder="last name" aria-label="last-name" aria-describedby="basic-addon1">
-      </div>
-      
-      <div class="input-group mb-3">
-        <input type="text" class="form-control" placeholder="email adress" aria-label="email address" aria-describedby="basic-addon2">
-        <div class="input-group-append">
-          <span class="input-group-text" id="basic-addon2">@example.com</span>
-        </div>
-      </div>
-     
-      <div class="input-group">
-        <div class="input-group-prepend">
-          <span class="input-group-text">With textarea</span>
-        </div>
-        <textarea class="form-control" aria-label="With textarea"></textarea>
-      </div>
-
+    </div>
+    
+           
+    <div class="container2"> <!-- Use .container2 for this section -->
+        <h2>Contact Me</h2>
+        <form action="your-server-script.php" method="POST">
+            <div class="form-group">
+                <label for="first-name">First Name:</label>
+                <input type="text" id="first-name" name="first_name" required>
+            </div>
+            <div class="form-group">
+                <label for="last-name">Last Name:</label>
+                <input type="text" id="last-name" name="last_name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
     
 </div>   
+
+    
+</body>
   
 <footer class="footer">
-    <div class="container">
-        <div class="row">
+   
+        <div class="row footer">
             <div class="col-md-6">
                 <ul class="footer-links">
                     <li><a href="https://rogueanuku.github.io/Homework-20-new/" target="_blank">Home</a></li>
@@ -196,7 +203,5 @@
                 </div>
             </div>
         </div>
-    </div>
+   
 </footer>
-    
-</body>
