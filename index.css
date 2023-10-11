@@ -83,6 +83,13 @@ img {
     flex-direction: column;
     /* min-height: 100%; */
 }
+.zoom-on-hover {
+    transition: transform 0.2s ease-in-out; /* Smooth transition on hover */
+}
+
+.zoom-on-hover:hover {
+    transform: scale(1.1); /* Increase the size on hover (zoom) */
+}
 .row-1 {
     margin-top: -130px;
     position: relative;
@@ -439,7 +446,7 @@ html, body {
             padding: 4%;
             color: white;
             /* padding: 20px; */
-            /* margin-top: -123px; */
+            margin-top: 5%;
             position: absolute;
             top: 1px;
             /* left: 20px; */
